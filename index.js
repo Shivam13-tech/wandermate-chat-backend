@@ -6,7 +6,18 @@ const io = require("socket.io")(http, {
 });
 
 // Predefined group names
-const predefinedGroups = ["Group1", "Group2", "Group3"];
+// const predefinedGroups = ["Group1", "Group2", "Group3"];
+const predefinedGroups = [
+  "Mystical Himalayan Trek",
+  "Desert Safari Experience",
+  "Coastal Adventure Retreat",
+  "Cultural Heritage Trail",
+  "Alpine Lakes Expedition",
+  "Wildlife Safari Adventure",
+  "Northern Lights Expedition",
+  "Tropical Island Getaway",
+  "Volcano Exploration Journey",
+];
 
 // Maintain a map of rooms and their members
 const groups = new Map();
